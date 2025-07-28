@@ -12,6 +12,9 @@ This repo provides a lightweight Docker setup for bootstrapping and running a Nu
 Once the container is running, you can jump in and scaffold a new Nuxt app:
 
 docker exec -it nuxt-dev sh
+
 npx nuxi init .
+
 npm install
+
 npm run dev
